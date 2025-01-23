@@ -8,7 +8,7 @@ public class leapyear {
         String rokstring = Integer.toString(rok);
         String cent_rok = (rokstring.substring(2, 4));
         int centRokInt = Integer.parseInt(cent_rok);
-        System.out.println(centRokInt);
+        //System.out.println(centRokInt);
 
         if (centRokInt ==0) {
             if (rok % 400 == 0) {
